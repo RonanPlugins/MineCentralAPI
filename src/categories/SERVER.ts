@@ -1,0 +1,6 @@
+export enum SERVER {
+  SURVIVAL,
+  CREATIVE,
+  PRISON,
+  FACTIONS,
+}

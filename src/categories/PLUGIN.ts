@@ -1,0 +1,11 @@
+export enum PLUGIN {
+  ECONOMY,
+  GAMEMODE,
+  UTILITY,
+  WORLD,
+  RESOURCE_PACK,
+  CHAT,
+  COSMETIC,
+  MISC,
+  PROXY,
+}
