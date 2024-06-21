@@ -15,3 +15,4 @@ export const PLUGIN_VERSION: string[] = [
   "1.8",
   "1.7",
 ];
+console.log("PLUGIN_VERSION:", PLUGIN_VERSION);
