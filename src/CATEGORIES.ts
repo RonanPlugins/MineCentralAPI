@@ -1,20 +1,27 @@
-enum PLUGIN {
-  ECONOMY,
-  GAMEMODE,
-  UTILITY,
-  WORLD,
-  RESOURCE_PACK,
-  CHAT,
-  COSMETIC,
-  MISC,
-  PROXY,
+export namespace PLUGIN {
+  export enum Type {
+    ECONOMY,
+    GAMEMODE,
+    UTILITY,
+    WORLD,
+    RESOURCE_PACK,
+    CHAT,
+    COSMETIC,
+    MISC,
+    PROXY,
+  }
 }
 
-enum SERVER {
-  SURVIVAL,
-  CREATIVE,
-  PRISON,
-  FACTIONS,
+export namespace SERVER {
+  export enum Type {
+    SURVIVAL,
+    CREATIVE,
+    PRISON,
+    FACTIONS,
+  }
 }
 
-export const CATEGORY = { PLUGIN, SERVER };
+export const CATEGORY = {
+  PLUGIN: PLUGIN.Type,
+  SERVER: SERVER.Type,
+};
