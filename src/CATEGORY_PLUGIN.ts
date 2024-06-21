@@ -9,10 +9,3 @@ export enum CATEGORY_PLUGIN {
   MISC,
   PROXY,
 }
-
-export enum CATEGORY_SERVER {
-  SURVIVAL,
-  CREATIVE,
-  PRISON,
-  FACTIONS,
-}

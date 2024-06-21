@@ -1,9 +1,3 @@
-export enum PLUGIN_SERVER {
-  BUKKIT,
-  SPIGOT,
-  FOLIA,
-}
-
 export const PLUGIN_VERSION: string[] = [
   "1.21",
   "1.20",
