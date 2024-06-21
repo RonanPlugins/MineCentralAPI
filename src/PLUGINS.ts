@@ -1,3 +1,9 @@
+enum SERVER {
+  BUKKIT,
+  SPIGOT,
+  FOLIA,
+}
+
 const VERSION: string[] = [
   "1.21",
   "1.20",
@@ -16,4 +22,4 @@ const VERSION: string[] = [
   "1.7",
 ];
 
-export default VERSION;
+export const PLUGINS = { SERVER, VERSION };

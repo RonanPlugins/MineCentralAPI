@@ -10,4 +10,11 @@ enum PLUGIN {
   PROXY,
 }
 
-export default PLUGIN;
+enum SERVER {
+  SURVIVAL,
+  CREATIVE,
+  PRISON,
+  FACTIONS,
+}
+
+export const CATEGORY = { PLUGIN, SERVER };
