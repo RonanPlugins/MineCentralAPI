@@ -1,4 +1,4 @@
-export enum PLUGIN {
+enum PLUGIN {
   ECONOMY,
   GAMEMODE,
   UTILITY,
@@ -9,3 +9,5 @@ export enum PLUGIN {
   MISC,
   PROXY,
 }
+
+export default PLUGIN;

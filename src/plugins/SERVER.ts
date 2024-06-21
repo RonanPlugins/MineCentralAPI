@@ -1,5 +1,7 @@
-export enum SERVER {
+enum SERVER {
   BUKKIT,
   SPIGOT,
   FOLIA,
 }
+
+export default SERVER;

@@ -1,4 +1,4 @@
-export const VERSION: string[] = [
+const VERSION: string[] = [
   "1.21",
   "1.20",
   "1.19",
@@ -15,3 +15,5 @@ export const VERSION: string[] = [
   "1.8",
   "1.7",
 ];
+
+export default VERSION;

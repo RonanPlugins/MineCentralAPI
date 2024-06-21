@@ -1,4 +1,4 @@
-import { VERSION } from "./VERSION";
-import { SERVER } from "./SERVER";
-
-export { VERSION as SERVER_VERSION, SERVER as SERVER_TYPE };
+export { default as PLUGIN_SERVER } from "./SERVER";
+export * from "./SERVER";
+export { default as PLUGIN_VERSION } from "./VERSION";
+export * from "./VERSION";
