@@ -1,10 +1,10 @@
-enum SERVER {
+export enum PLUGIN_SERVER {
   BUKKIT,
   SPIGOT,
   FOLIA,
 }
 
-const VERSION: string[] = [
+export const PLUGIN_VERSION: string[] = [
   "1.21",
   "1.20",
   "1.19",
@@ -21,5 +21,3 @@ const VERSION: string[] = [
   "1.8",
   "1.7",
 ];
-
-export const PLUGINS = { SERVER, VERSION };
