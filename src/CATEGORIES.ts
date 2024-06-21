@@ -22,6 +22,6 @@ export namespace SERVER {
 }
 
 export const CATEGORY = {
-  PLUGIN: PLUGIN.Type,
-  SERVER: SERVER.Type,
+  PLUGIN,
+  SERVER,
 };
