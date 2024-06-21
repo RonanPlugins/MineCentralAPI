@@ -1,1 +1,4 @@
 src/
+.gitattributes
+eslint.config.mjs
+tsconfig.json
