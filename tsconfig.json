@@ -3,12 +3,12 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "target": "ES5",
-    "module": "CommonJS",
+    "module": "ESNext",
     "strict": true,
     "declaration": true,
     "declarationDir": "./dist",
-    "moduleResolution": "Node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
