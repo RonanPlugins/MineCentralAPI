@@ -1,13 +1,13 @@
 {
   "name": "minecentral-api",
-  "version": "0.4.3",
+  "version": "0.4.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsc && node dist/index.js",
     "build": "tsc && npm version patch"
   },
-  "type": "commonjs",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
