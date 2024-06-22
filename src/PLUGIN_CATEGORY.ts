@@ -1,4 +1,4 @@
-export enum CATEGORY_PLUGIN {
+export enum PLUGIN_CATEGORY {
   ECONOMY,
   GAMEMODE,
   UTILITY,

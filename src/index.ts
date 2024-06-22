@@ -1,10 +1,9 @@
-import { PLUGIN_VERSION } from "./PLUGIN_VERSION";
-
 export * from "./PERMISSION";
 export * from "./POST_TYPE";
-export * from "./CATEGORY_SERVER";
-export * from "./CATEGORY_PLUGIN";
+//PLUGINS
+export * from "./PLUGIN_CATEGORY";
+export * from "./PLUGIN_LOADER";
+export * from "./PLUGIN_PROXY";
 export * from "./PLUGIN_VERSION";
-export * from "./PLUGIN_SERVER";
-
-console.log("Versions", PLUGIN_VERSION);
+//SERVER
+export * from "./SERVER_CATEGORY";
