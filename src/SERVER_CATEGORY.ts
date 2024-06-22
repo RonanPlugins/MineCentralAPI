@@ -1,4 +1,4 @@
-export enum CATEGORY_SERVER {
+export enum SERVER_CATEGORY {
   SURVIVAL,
   CREATIVE,
   PRISON,
