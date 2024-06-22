@@ -1,6 +1,6 @@
 {
   "name": "minecentral-api",
-  "version": "0.4.11",
+  "version": "0.4.9",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/commonjs/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
     }
   }
 }
